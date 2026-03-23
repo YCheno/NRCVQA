@@ -58,14 +58,15 @@ We selected 300 original cartoon videos from Internet. We also provided the 300 
 - train-test in Real_cartoon Database: 
 `python finetuned_true.py --batch-size=6 --batch-test=6 --dataset=True_CVQA --frame=12 --base_lr=5e-5 --loss=plcc --fine_tune=True --best=0.8 --idx=0`
 
+# Fine-tuning Datasets:
+https://pan.baidu.com/s/1mOo-ytPlmeCO6S81y5jVuw  code: 7gg7 
 
 ## Demo
 
 run `python demo.py` to get the predict for one test video. (You can modify the setting by yourself.)
 
 
-# Finetuning Datasets:
-https://pan.baidu.com/s/1mOo-ytPlmeCO6S81y5jVuw  code: 7gg7 
+
 
 
 
